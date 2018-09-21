@@ -1,16 +1,1 @@
-<div class="container">
-
-  <input name="title" #searchTerm >
-
-
-  <button (click)="performSearch(searchTerm)">Search</button>
-
-
-
-  <div class="row">
-
-       <div class="col-md-6" *ngFor="let trend of giphyArray">
-  <img src="{{trend.images.downsized_medium.url}}">
-   </div>
-  </div>
-</div>
+<app-giphy></app-giphy>
